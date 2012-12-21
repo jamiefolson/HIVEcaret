@@ -12,9 +12,6 @@ buildscript {
 }
 apply plugin: 'rpackage'
 
-build.dependsOn ':rsql:install'
-build.dependsOn ':rhive:install'
-
 rpackage {
   packageDir = 'pkg'
   packageName = 'HIVEcaret'
